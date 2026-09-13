@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022" /* Output JavaScript version */,
+    "module": "NodeNext" /* Sets the module system for the program */,
+    "moduleResolution": "NodeNext" /* How TypeScript looks up file imports */,
+    "outDir": "./dist" /* Where compiled .js files are placed */,
+    "rootDir": "./src" /* Location of your source files */,
+    "strict": true /* Enable all strict type-checking options */,
+    "esModuleInterop": true /* Smooths out imports between CommonJS and ESM */,
+    "skipLibCheck": true /* Skips type checking of declaration (.d.ts) files */,
+    "types": ["node"]
+  },
+  "include": ["src/**/*"] /* Files/folders to compile */,
+  "exclude": ["node_modules", "dist"] /* Files/folders to completely ignore */
+}

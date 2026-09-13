@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "Js runs outside the browser",
+  "homepage": "https://github.com/NipunShrivats/NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/NipunShrivats/NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NipunShrivats/NodeJS.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
